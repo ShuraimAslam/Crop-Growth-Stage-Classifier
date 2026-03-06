@@ -43,7 +43,7 @@ def main():
         # Column 1: Displays the image being processed
         with col1:
             st.subheader("Uploaded Image")
-            st.image(image, use_column_width=True)  # width="stretch" is deprecated, use_column_width=True is safer
+            st.image(image, width="stretch")  # width="stretch" is deprecated, use_column_width=True is safer
         
         # Column 2: Contains the classification button and displays results
         with col2:
